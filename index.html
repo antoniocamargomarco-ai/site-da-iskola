@@ -40,6 +40,13 @@
             opacity: 0.9;
         }
 
+        header img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 1rem;
+        }
+
         main {
             flex: 1;
             max-width: 900px;
@@ -64,6 +71,14 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+        }
+
+        .card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+            display: block;
+            margin-bottom: 0.5rem;
         }
 
         .card:hover {
@@ -116,8 +131,8 @@
 <body>
 
     <header>
-        <h1> Trabalhos Escolares</h1>
-        <img src="MHD 2B 2026.jpg" width="250" height="150">
+        <h1>Trabalhos Escolares</h1>
+        <img src="MHD 2B 2026.jpg" width="250" height="150" alt="Logo da Turma 2B 2026">
         <p>Portfólio de projetos, pesquisas e atividades acadêmicas</p>
     </header>
 
@@ -126,10 +141,10 @@
             <!-- Trabalho 1 -->
             <div class="card">
                 <div>
-                    <span class="tag">Tec.ciencia/Fisica</span>
+                    <span class="tag">Tec.ciência/Física</span>
                     <h3>Ilusão ótica</h3>
-                    <img src="O que é Ilusões de ótica.jpg" width="250" height="150">
-                    <p>Mostrar Como funciona as Ilusoes de ótica</p>
+                    <img src="O que é Ilusões de ótica.jpg" width="250" height="150" alt="Ilusão de ótica">
+                    <p>Mostrar como funcionam as ilusões de ótica.</p>
                 </div>
                 <a href="trabalho1.html" class="btn">Ver Trabalho</a>
             </div>
@@ -137,10 +152,10 @@
             <!-- Trabalho 2 -->
             <div class="card">
                 <div>
-                    <span class="tag">Tec.ciencia/Fisica</span>
-                    <h3>propagação da luz</h3>
-                    <img src="propagacaodeluz.png" widht="200" height="150">
-                    <p>Mostrar como a luz se propaga</p>
+                    <span class="tag">Tec.ciência/Física</span>
+                    <h3>Propagação da luz</h3>
+                    <img src="propagacaodeluz.png" width="200" height="150" alt="Propagação da luz">
+                    <p>Mostrar como a luz se propaga.</p>
                 </div>
                 <a href="trabalho2.html" class="btn">Ver Trabalho</a>
             </div>
@@ -154,24 +169,43 @@
                 </div>
                 <a href="trabalho3.html" class="btn">Ver Trabalho</a>
             </div>
-        </div>
 
-        <!-- trabalho 4 -->
-        <div class="card
-         <div>
-               <span class="tag">Tec.ciencia/Fisica</span>
-               <h3>*materia*</h3> 
-               <p>palheta</p>
-           </div>
-           <a href="trabalho4.html" class="btn">Ver Trabalho</a>
-       </div>
-   </div>                                              
- </main>
+            <!-- Trabalho 4 -->
+            <div class="card">
+                <div>
+                    <span class="tag">Matemática</span>
+                    <h3>Aplicação de Estatística</h3>
+                    <p>Estudo de caso prático utilizando gráficos e média ponderada.</p>
+                </div>
+                <a href="trabalho4.html" class="btn">Ver Trabalho</a>
+            </div>
+
+            <!-- Trabalho 5 -->
+            <div class="card">
+                <div>
+                    <span class="tag">Matemática</span>
+                    <h3>Aplicação de Estatística</h3>
+                    <p>Estudo de caso prático utilizando gráficos e média ponderada.</p>
+                </div>
+                <a href="trabalho5.html" class="btn">Ver Trabalho</a>
+            </div>
+
+            <!-- Trabalho 6 -->
+            <div class="card">
+                <div>
+                    <span class="tag">Matemática</span>
+                    <h3>Aplicação de Estatística</h3>
+                    <p>Estudo de caso prático utilizando gráficos e média ponderada.</p>
+                </div>
+                <a href="trabalho6.html" class="btn">Ver Trabalho</a>
+            </div>
+        </div>
+    </main>
 
     <footer>
         <p>&copy; 2026 - Desenvolvido para fins escolares.</p>
-        <a href="imagensutiliadas.html" class="btn">imagens utilizadas</a>
-        <p>Creditos a imagens utilizadas</p>
+        <p>Créditos às imagens utilizadas</p>
+        <a href="imagensutiliadas.html" class="btn">Imagens Utilizadas</a>
     </footer>
 
 </body>
